@@ -1,0 +1,896 @@
+@font-face {
+    font-family: 'fc_lamoon_regular';
+    src: url('../font/fc_lamoon_regular_ver_1.00-webfont.woff2') format('woff2'),
+         url('../font/fc_lamoon_regular_ver_1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fc_lamoonbold';
+    src: url('../font/fc_lamoon_bold_ver_1.00-webfont.woff2') format('woff2'),
+         url('../font/fc_lamoon_bold_ver_1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body{
+	margin:0;
+	padding: 0;
+}
+
+#wraper{
+	width: 1280px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	width: 1280px;
+	height: 475.5px;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.menubar{
+	width: 1280px;
+	height: 100px;
+	background-color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 2;
+
+}
+#imglogo{
+	width: 145px;
+	height: 75px;
+	
+}
+.box_imglogo{
+	margin-left: 140px;
+	margin-top: 10px;
+	float: left;
+}
+.menu
+{  
+	float: right;
+}
+#h{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: white;
+	float: right;
+	margin-right:140px;
+	padding: 10px;
+}
+#a{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: white;
+	float: right;
+	padding: 10px;
+	/*margin-right:1px;*/
+	
+}
+#o{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: white;
+	float: right;
+	padding: 10px;
+}
+#i{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: white;
+	float: right;
+	padding: 10px;
+}
+#g{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: white;
+	float: right;
+	padding: 10px;
+}
+#p{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: white;
+	float: right;
+	padding: 10px;
+}
+
+.class{
+	width: 1280px;
+	height: 50px;
+	margin-top: 425.5px;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	z-index: 2;
+}
+
+#c1{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	margin-top:10px;
+	color: white;
+	float: right;
+	position: absolute;
+	z-index: 2;
+	margin-left:308px;
+}
+
+#c2{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	margin-top:10px;
+	color: white;
+	float: left;
+	margin-right:700px;
+}
+#c2{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	margin-top:10px;
+	color: white;
+	margin-left:450px;
+	float: left;
+	
+}
+#c3{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	margin-top:10px;
+	color: white;
+	margin-left:-680px;
+	float: left;
+	
+}
+#c4{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	margin-top:10px;
+	color: white;
+	margin-left:-550px;
+	float: left;
+}
+#c5{
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	margin-top:10px;
+	color: white;
+	margin-left:-430px;
+	float: left;
+}
+.part2{
+	width: 1280px;
+	height: 550px;
+	 background-image: linear-gradient(#353B79, #1B1E3D);
+}
+#wraper2{
+	width: 1004px;
+	margin-right: auto;
+	margin-left: 150px;
+	margin-top: 65px;
+	position: absolute;
+	z-index: 2;
+}
+.ch1{
+	width: 240px;
+	height: 160px;
+	float : left;
+}
+.ch2{
+	width: 240px;
+	height: 160px;
+
+	float : left;
+	margin-left: 10px;
+}
+.ch3{
+	width: 240px;
+	height: 160px;
+	float : left;
+	margin-left: 10px; 
+}
+.ch4{
+	width: 240px;
+	height: 160px;
+	float : left;
+	margin-left: 10px;
+}
+#wraper3{
+	width: 1004px;
+	margin-right: auto;
+	margin-left: 140px;
+	margin-top: 320px;
+	position: absolute;
+	z-index: 2;
+}
+.ch5{
+	width: 240px;
+	height: 160px;
+	float : left;
+	margin-left: 10px; 
+}
+.ch6{
+	width: 240px;
+	height: 160px;
+	float : left;
+	margin-left: 10px;
+
+}
+.ch7{
+	width: 240px;
+	height: 160px;
+	float : left;
+	margin-left: 10px;
+}
+.ch8{
+	width: 240px;
+	height: 160px;
+	float : left;
+	margin-left: 10px;
+}
+#statue{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	z-index: 2;
+}
+#london{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	z-index: 2;
+}
+#sydney{
+	width: 240px;
+	height: 160px
+	position: absolute;
+	z-index: 2;
+	position: absolute;
+	z-index: 2;
+}
+#city{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	z-index: 2;
+}
+#beijing{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	z-index: 2;
+}
+#alberta{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	z-index: 2;
+}
+#aoraki{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	z-index: 2;
+}
+#marina{
+	width: 240px;
+	height: 160px;
+	position: absolute;
+	z-index: 2;
+}
+.ch1_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.ch2_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.ch3_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.ch4_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.ch5_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.ch6_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.ch7_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.ch8_{
+	position: absolute;
+	z-index: 3;
+	width: 240px;
+	height: 30px;
+	margin-top: 125px; 
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	padding-top: 5px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #333975;
+	
+}
+.part3{
+	width: 1280px;
+	height: 675px;
+	background-image: url("../images/bg2.jpg");
+}
+.tran1{
+	width: 1280px;
+	height: 675px;
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	z-index: 2;
+}
+.hs{
+	width: 322px;
+	height: 70px;
+	background-color: rgba(18,181,183,0.5);
+	margin-left: 140px;
+	margin-top: 45px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: fc_lamoon_regular;
+	font-size: 60px; 
+	color: #fff;
+}
+.part4{
+	width: 1280px;
+	height: 675px;
+	background-image: url("../images/bg3.jpg");
+	
+}
+.tran2{
+	width: 1280px;
+	height: 675px;
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	z-index: 2;
+}
+.hsc{
+	width: 322px;
+	height: 70px;
+	background-color: rgba(18,181,183,0.5);
+	align-self: center;
+	margin-left: 478px;
+	margin-top: 80px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: fc_lamoon_regular;
+	font-size: 60px; 
+	color: #fff;
+}
+#wraper4{
+	width: 1004px;
+	margin-right: auto;
+	margin-left: 223px;
+	margin-top: 65px;
+	position: absolute;
+	z-index: 4;
+}
+.b1{
+	width: 323px;
+	height: 334px;
+	float : left;
+	margin-left: 223px;
+	margin-top: 60px;
+	background-color: #333; 
+
+}
+.b2{
+	width: 323px;
+	height: 334px;
+	float : left;
+	margin-left: 160px;
+	margin-top: 60px;
+	background-color: red; 
+}
+
+#royal{
+	width: 323px;
+	height: 334px;
+	position: absolute;
+	z-index: 3;
+}
+#aa{
+	width: 323px;
+	height: 334px;
+	position: absolute;
+	z-index: 2;
+}
+.oo{
+	position: absolute;
+	z-index: 4;
+	width: 323px;
+	height: 35px;
+	margin-top: 300px; 
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 0px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #fff;
+}
+.bb{
+	position: absolute;
+	z-index: 4;
+	width: 323px;
+	height: 35px;
+	margin-top: 300px; 
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 0px;
+	font-family: fc_lamoon_regular;
+	font-size: 30px;
+	color: #fff;
+}
+.part5
+{
+	width: 1280px;
+	height: 675px;
+	background-image: url("../images/bg4.jpg");
+}
+.tran3{
+	width: 1280px;
+	height: 675px;
+	background-color: rgba(255,255,255,0.3);
+	position: absolute;
+	z-index: 2;
+}
+.un{
+	width: 322px;
+	height: 70px;
+	background-color: rgba(18,181,183,0.5);
+	align-self: center;
+	margin-left: 478px;
+	margin-top: 80px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: fc_lamoon_regular;
+	font-size: 60px; 
+	color: #fff;
+	position: absolute;
+	z-index: 2;
+}
+.content_box{
+	width: 595px;
+	height: 334px;
+	background-color: rgba(18,181,183,0.5);
+	align-self: center;
+	margin-left: 350px;
+	margin-top: 225px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: fc_lamoon_regular;
+	font-size: 24px; 
+	color: #fff;
+	position: absolute;
+	z-index: 2;
+
+}
+
+.button{
+	width: 165px;
+	height: 32px;
+	border-radius: 30px;
+	background-color: #fff;
+	border: 0;
+	font-size: 20px; 
+	color: #707070;
+	font-family: fc_lamoon_regular;
+	cursor: pointer;
+	transition:0.3s;
+	margin:30px 50px 0 60px;
+
+}
+#p1{
+	margin-top: 100px;
+}
+.button:hover{
+	background-color: #333975;
+	color: #fff; 
+}
+#h:hover{
+	color: #00CAFF;
+	text-decoration: none;
+}
+#a:hover{
+	color: #00CAFF;
+	text-decoration: none;
+}
+#o:hover{
+	color: #00CAFF;
+	text-decoration: none;
+}
+#i:hover{
+	color: #00CAFF;
+	text-decoration: none;
+}
+#g:hover{
+	color: #00CAFF;
+	text-decoration: none;
+}
+#p:hover{
+	color: #00CAFF;
+	text-decoration: none;
+}
+#c1:hover{
+	color: #00CAFF;
+	text-decoration: none;
+	font-size: 32px; 
+}
+#c2:hover{
+	color: #00CAFF;
+	text-decoration: none;
+	font-size: 32px; 
+}
+#c3:hover{
+	color: #00CAFF;
+	text-decoration: none;
+	font-size: 32px; 
+}
+#c4:hover{
+	color: #00CAFF;
+	text-decoration: none;
+	font-size: 32px; 
+}
+#c5:hover{
+	color: #00CAFF;
+	text-decoration: none;
+	font-size: 32px; 
+}
+
+.ch1_:hover{
+	transform: scale(1,1);
+}
+.fot{
+	width: 1280px;
+  height: 130px;
+   background-color: white;
+}
+.box_imglogofot{
+	margin-left: 140px;
+	margin-top: 50px;
+	float: left;
+	
+}
+#fotlogo{
+	width: 85px;
+	height: 41px;
+}
+.fotcon{
+	align-self: center;
+	/*margin-left: 350px;*/
+	margin-left: 280px;
+	margin-top: 40px;
+	/*text-align: center;*/
+	font-family: fc_lamoon_regular;
+	font-size: 14px; 
+	color: #707070;
+	position: absolute;
+	z-index: 3;
+	float: left;
+}
+#reco{
+	width: 475px;
+	height: 57px;
+}
+.box_reco{
+	margin-top: -80px;
+	margin-left: 695px;
+}
+button { margin-top: 10px; }
+
+ul {
+	color: #ECECEC;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+p {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: #c48ec8;
+	-webkit-transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+       -moz-transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+         -o-transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+            transition: color 0.25s cubic-bezier(0.860, 0.000, 0.070, 1.000); /* ease-in-out */
+}
+
+button {
+	color: #FFF;
+	font-size: 12px;
+	letter-spacing: 0.3em;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-transform: uppercase;
+	border-radius: 30px;
+	cursor: pointer;
+	border: none;
+	background: #333975;
+	padding: 8px 14px;
+}
+
+
+ul.animate {
+	-webkit-transition: -webkit-transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+       -moz-transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+         -o-transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+            transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); /* ease-in-out */	
+}
+
+.stage {
+	
+	margin: 0 auto;
+	
+	margin-top: 60px;
+	text-align: center;
+	overflow:hidden;
+}
+
+
+.sldr {
+	max-width: 420px;
+	margin: 0 auto;
+	overflow: visible;
+	position: relative;
+	clear: both;
+	display: block;
+}
+
+.sldr > ul > li {
+	float: left;
+	display: block;
+	width: 100px;
+}
+.selectors {
+	/*margin: 15px 0 0;*/
+}
+
+.selectors li {
+	font-size: 46px;
+	line-height: 32px;
+	display: inline;
+	padding: 0 2px;	
+}
+
+.selectors li a {
+	text-decoration: none;
+}
+
+.selectors li.focalPoint a {
+	color: #CCC;
+	cursor: default;
+}
+
+.captions div {
+	left: 200%;
+	position: fixed;
+	opacity: 0;
+
+	-webkit-transition: opacity 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+       -moz-transition: opacity 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+         -o-transition: opacity 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+            transition: opacity 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000); /* ease-in-out */
+}
+
+.captions div.focalPoint {
+	opacity: 1;
+	left: inherit;
+	position: static;
+}
+
+.clear {
+	display: block;
+	width: 100%;
+	height: 0px;
+	overflow: hidden;
+	clear: both;
+}
+#lo1{
+	position: absolute;
+	z-index: 3;
+	width: 325px;
+	height: 50px;
+	margin-top: -200px;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 48px;
+	text-align: center;
+	padding-top: 0px;
+	font-family: fc_lamoon_regular;
+	font-size: 60px;
+	color: #333975;
+}	
+#lo2{
+	position: absolute;
+	z-index: 3;
+	width: 325px;
+	height: 50px;
+	margin-top: -200px;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 48px;
+	text-align: center;
+	padding-top: 0px;
+	font-family: fc_lamoon_regular;
+	font-size: 60px;
+	color: #333975;
+}	
+#lo4{
+	position: absolute;
+	z-index: 3;
+	width: 325px;
+	height: 50px;
+	margin-top: -200px;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 48px;
+	text-align: center;
+	padding-top: 0px;
+	font-family: fc_lamoon_regular;
+	font-size: 60px;
+	color: #333975;
+}	
+
+.ch1 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 8;
+}
+.ch2 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 10;
+}
+.ch3 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 12;
+}
+.ch4 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 14;
+}
+.ch5 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 14;
+}
+.ch6 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 14;
+}
+.ch7 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 14;
+}
+.ch8 a:hover{
+	transform: scale(1.2);
+	transition: 1.5s;
+	display: block;
+	position: absolute;
+	z-index: 3;
+}
+.b1:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.b2:hover{
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}

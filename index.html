@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wisdom House</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+	<div id="wraper">
+		<header>
+			<div class="menubar">
+				<div class="box_imglogo"><a href="index.html"><img src="images/logo.png"id="imglogo"></a>
+				</div>
+				<a href="#">
+				<div class="menu" >
+					
+					<p id="h">  CONTACT US  </p>
+					<P id="a">  GALLERRY  </P>
+					<P id="o">  INSTITUTION LIST  </P>
+					<P id="i">  OUR SERVICE  </P>
+					<P id="g">  ABOUT US  </P>
+					<P id="p"> HOME  </P>
+					</a>
+				</div>
+				
+			</div>
+			<a href="#">
+
+
+			<div class="class">
+				<P id="c1">  หลักสูตรเตรียม </P>
+				<P id="c2">  โรงเรียนมัธยม  </P>
+				<P id="c3">  มหาวิทยาลัย  </P>
+				<P id="c4">  เรียนภาษา   </P>
+				<P id="c5"> ซัมเมอร์   </P>
+			</div>
+			</a>
+		</header>
+		<div class="part2">
+			<div id="wraper2">
+				
+				<a href="#">
+				<div class="ch1"><img src="images/statue.jpg"id="statue">
+					<div class="ch1_">อเมริกา</div></a>
+
+
+				</div>
+				<a href="#">
+				<div class="ch2"><img src="images/london.jpg"id="london">
+					<div class="ch2_">อังกฤษ</div></a>
+
+				</div>
+				
+				<a href="#">
+				<div class="ch3"><img src="images/sydney.jpg"id="sydney">
+					<div class="ch3_">ออสเตรเลีย</div></a>
+
+
+				</div>
+				<a href="#">
+				
+				<div class="ch4"><img src="images/city.jpg"id="city">
+					<div class="ch4_">มาเลเซีย</div></a>
+
+
+				</div>
+			</div>
+
+
+
+
+
+			<div id="wraper3">
+				<a href="#">
+				<div class="ch5"><img src="images/beijing.jpg"id="beijing">
+					<div class="ch5_">จีน</div></a>
+				</div>
+				<a href="#">
+				<div class="ch6"><img src="images/alberta.jpg"id="alberta">
+					<div class="ch6_">แคนาดา</div></a>
+
+				</div>
+				<a href="#">				
+					<div class="ch7"><img src="images/aoraki.jpg"id="aoraki">
+					<div class="ch7_">นิวซีแลนด์</div></a>
+
+				</div>
+				<a href="#">
+				<div class="ch8"><img src="images/marina.jpg"id="marina">
+					<div class="ch8_">สิงคโปร์</div></a>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<div class="part3">
+			<div class="tran1">
+				<div class="hs">ซัมเมอร์แคมป์</div>
+
+				<div class="stage">
+
+	
+
+	<div id="SLDR-ONE" class="sldr">
+		<ul class="wrp animate">
+			<li class="elmnt-one">
+				<div class="skew">
+					<div class="wrap">
+						
+						<a href="#"><img src="images/England.jpg" width="325" height="365" id="England">
+						<div id="lo1">ซัมเมอร์อังกฤษ</div></a>
+					
+					</div>
+				</div>
+			</li>
+			<li class="elmnt-two">
+				<div class="skew">
+					<div class="wrap">
+						<a href="#"><img src="images/Mount.jpg" width="325" height="365" id="Mount">
+						<div id="lo2">ซัมเมอร์นิวซีเเลนด์</div></a>
+
+					</div>
+				</div>
+			</li>
+			<li class="elmnt-three">
+				<div class="skew">
+					<div class="wrap">
+						<a href="#"><img src="images/5633.jpg" width="325" height="365" id="i5">
+						<div id="lo2">ซัมเมอร์ไต้หวัน</div></a>
+					</div>
+				</div>
+			</li>
+			<li class="elmnt-four">
+				<div class="skew">
+					<div class="wrap">
+						<a href="#"><img src="images/city.jpg" width="325" height="365" id="kom">
+						<div id="lo4">ซัมเมอร์มาเลเซีย</div></a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="clear"></div>
+
+
+	<button class="sldr-prv sldr-nav prev">Prev</button>
+	<button class="sldr-nxt sldr-nav next">Next</button>
+	
+
+
+	
+</div>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.sldr.js"></script>
+<script>
+
+$( window ).load( function() {
+
+	$( '.sldr' ).each( function() {
+		var th = $( this );
+		th.sldr({
+			focalClass    : 'focalPoint',
+			offset        : th.width() / 2,
+			sldrWidth     : 'responsive',
+			nextSlide     : th.nextAll( '.sldr-nav.next:first' ),
+			previousSlide : th.nextAll( '.sldr-nav.prev:first' ),
+			selectors     : th.nextAll( '.selectors:first' ).find( 'li' ),
+			toggle        : th.nextAll( '.captions:first' ).find( 'div' ),
+			sldrInit      : sliderInit,
+			sldrStart     : slideStart,
+			sldrComplete  : slideComplete,
+			sldrLoaded    : sliderLoaded,
+			sldrAuto      : true,
+			sldrTime      : 5000,
+			hasChange     : true
+		});
+	});
+
+});
+
+
+function sliderInit( args ) {
+
+}
+
+
+function slideLoaded( args ) {
+
+}
+
+
+function sliderLoaded( args ) {
+
+}
+
+
+function slideStart( args ) {
+
+}
+
+
+function slideComplete( args ) {
+
+}
+
+</script>
+
+			</div>
+		</div><!-- end part3 -->
+
+
+		<div class="part4">
+			<div class="tran2">
+				<div class="hsc">ประถมเเละมัธยม</div>
+				<div class="wraper4">
+					<a href="#">
+					<div class="infinite bounce b1">
+						<div>
+						<img src="images/royal.jpg" id="royal">
+						<div class="oo">โรงเรียนประจำ</div></div>
+					</div></a>
+					<a href="#">
+						<div class="infinite bounce b2">
+						<img src="images/157.jpg" id="aa">
+						<div class="bb">โรงเรียนไป-กลับ</div></a>
+					</div>
+					</div>
+			</div>
+
+		</div>
+		<div class="part5">
+			<div class="tran3"></div>
+			<div class="un">มหาวิทยาลัย</div>
+
+			<div class="content_box">
+				<p id="p1">เรียนต่อระดับมหาวิทยาลัย กว่า 100 แห่ง จากประเทศที่น่าสนใจ 8 ประเทศ
+จีน อังกฤษ อเมริกา แคนาดา นิวซีแลนด์ มาเลเซีย นิวซีแลนด์ สิงคโปร์ ทั้ง
+ปริญญาตรี ปริญญาโท ปริญญาเอก<br></p>
+				
+			<button type="button" class="button">อ่านเพิ่มเติม</button>
+			</div>
+
+		</div>
+		<div class="fot">
+			<div class="box_imglogofot">
+				<img src="images/logo.png" id="fotlogo">
+				
+			</div>
+			<div class="fotcon"><p id="p2">วิสดอม เฮ้าส์ เอ็ดดูเคชั่น แอนด์ ทราเวล<br>
+126/4 ลุมพินีเพลส สาทร อาคาร B ถนน นราธิวาสราชนครินทร์ เเขวง ทุ่งวัดดอน เขต สาทร กทม 10120 <br> 
+(สถานี BRT เทคนิคกรุงเทพ / ติดห้างแม็คโคร)<br> 
+โทร: 02 286 9662 / มือถือ: 088 003 9300 , 088 003 9306 </p></div>
+		</div>
+		<div class="fot">
+			<div class="box_reco">
+				<img src="images/reco.jpg" id="reco">
+				
+			</div>
+		</div>
+		
+
+
+
+
+</body>
+</html>
